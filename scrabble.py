@@ -42,7 +42,7 @@ LETTER_VALUES = {
     'Z': 10,
 }
 
-def display(word, hand):
+def display(word: str, hand: str):
     counts = {}
     for ch in hand:
         if ch not in counts:
